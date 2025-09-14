@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.container {
+  max-width: 600px; /* Limit the container's width */
+  margin: 50px auto; /* Center the container horizontally */
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Calibri Light", sans-serif;
+  background-color: white;
+}
+
+.container > h2 {
+  text-align: center;
+  font-weight: 100;
+}
+
+.container > #check-btn {
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(106, 6, 199);
+  padding: 10px 30px; /* Combined padding */
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.container > #check-btn:hover {
+  background-color: rgb(85, 5, 160); /* Darker shade on hover */
+}
+
+.container > #text-input {
+  border: none;
+  border-bottom: 2px solid rgb(106, 6, 199);
+  width: 250px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#instruction {
+  max-width: 600px;
+  margin: 20px auto; /* Center the instruction block */
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(45, 85, 45);
+}
+
+#instruction > h1 {
+  font-family: "Calibri Light", sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  color: white;
+  margin: 0;
+}
